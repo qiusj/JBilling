@@ -5,6 +5,7 @@
       <configuration>
         <datasource-map>
           <unit-entry name="Gorm" />
+          <unit-entry name="sessionFactory" />
           <unit-entry name="target-eclipse:classes:hibernate.cfg.xml" />
         </datasource-map>
         <naming-strategy-map />
@@ -28,12 +29,194 @@
         <sourceRoots />
       </configuration>
     </facet>
+    <facet type="Seam" name="Seam">
+      <configuration />
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/webapps/docs/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/webapps/docs" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/java" />
+          <root url="file://$MODULE_DIR$/src/groovy" />
+          <root url="file://$MODULE_DIR$/grails-app/i18n" />
+          <root url="file://$MODULE_DIR$/grails-app/controllers" />
+          <root url="file://$MODULE_DIR$/grails-app/domain" />
+          <root url="file://$MODULE_DIR$/grails-app/services" />
+          <root url="file://$MODULE_DIR$/grails-app/taglib" />
+          <root url="file://$MODULE_DIR$/grails-app/utils" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web2">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/webapps/drools-guvnor/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/webapps/drools-guvnor" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/java" />
+          <root url="file://$MODULE_DIR$/src/groovy" />
+          <root url="file://$MODULE_DIR$/grails-app/i18n" />
+          <root url="file://$MODULE_DIR$/grails-app/controllers" />
+          <root url="file://$MODULE_DIR$/grails-app/domain" />
+          <root url="file://$MODULE_DIR$/grails-app/services" />
+          <root url="file://$MODULE_DIR$/grails-app/taglib" />
+          <root url="file://$MODULE_DIR$/grails-app/utils" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web3">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/webapps/examples/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/webapps/examples" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/java" />
+          <root url="file://$MODULE_DIR$/src/groovy" />
+          <root url="file://$MODULE_DIR$/grails-app/i18n" />
+          <root url="file://$MODULE_DIR$/grails-app/controllers" />
+          <root url="file://$MODULE_DIR$/grails-app/domain" />
+          <root url="file://$MODULE_DIR$/grails-app/services" />
+          <root url="file://$MODULE_DIR$/grails-app/taglib" />
+          <root url="file://$MODULE_DIR$/grails-app/utils" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web4">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/webapps/host-manager/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/webapps/host-manager" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/java" />
+          <root url="file://$MODULE_DIR$/src/groovy" />
+          <root url="file://$MODULE_DIR$/grails-app/i18n" />
+          <root url="file://$MODULE_DIR$/grails-app/controllers" />
+          <root url="file://$MODULE_DIR$/grails-app/domain" />
+          <root url="file://$MODULE_DIR$/grails-app/services" />
+          <root url="file://$MODULE_DIR$/grails-app/taglib" />
+          <root url="file://$MODULE_DIR$/grails-app/utils" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web5">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/webapps/jbilling/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/webapps/jbilling" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/java" />
+          <root url="file://$MODULE_DIR$/src/groovy" />
+          <root url="file://$MODULE_DIR$/grails-app/i18n" />
+          <root url="file://$MODULE_DIR$/grails-app/controllers" />
+          <root url="file://$MODULE_DIR$/grails-app/domain" />
+          <root url="file://$MODULE_DIR$/grails-app/services" />
+          <root url="file://$MODULE_DIR$/grails-app/taglib" />
+          <root url="file://$MODULE_DIR$/grails-app/utils" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web6">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/webapps/manager/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/webapps/manager" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/java" />
+          <root url="file://$MODULE_DIR$/src/groovy" />
+          <root url="file://$MODULE_DIR$/grails-app/i18n" />
+          <root url="file://$MODULE_DIR$/grails-app/controllers" />
+          <root url="file://$MODULE_DIR$/grails-app/domain" />
+          <root url="file://$MODULE_DIR$/grails-app/services" />
+          <root url="file://$MODULE_DIR$/grails-app/taglib" />
+          <root url="file://$MODULE_DIR$/grails-app/utils" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web7">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/webapps/ROOT/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/webapps/ROOT" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/java" />
+          <root url="file://$MODULE_DIR$/src/groovy" />
+          <root url="file://$MODULE_DIR$/grails-app/i18n" />
+          <root url="file://$MODULE_DIR$/grails-app/controllers" />
+          <root url="file://$MODULE_DIR$/grails-app/domain" />
+          <root url="file://$MODULE_DIR$/grails-app/services" />
+          <root url="file://$MODULE_DIR$/grails-app/taglib" />
+          <root url="file://$MODULE_DIR$/grails-app/utils" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web8">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/webapps/docs/appdev/sample/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/webapps/docs/appdev/sample/web" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/java" />
+          <root url="file://$MODULE_DIR$/src/groovy" />
+          <root url="file://$MODULE_DIR$/grails-app/i18n" />
+          <root url="file://$MODULE_DIR$/grails-app/controllers" />
+          <root url="file://$MODULE_DIR$/grails-app/domain" />
+          <root url="file://$MODULE_DIR$/grails-app/services" />
+          <root url="file://$MODULE_DIR$/grails-app/taglib" />
+          <root url="file://$MODULE_DIR$/grails-app/utils" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web9">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/conf/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/conf" relative="/WEB-INF" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/java" />
+          <root url="file://$MODULE_DIR$/src/groovy" />
+          <root url="file://$MODULE_DIR$/grails-app/i18n" />
+          <root url="file://$MODULE_DIR$/grails-app/controllers" />
+          <root url="file://$MODULE_DIR$/grails-app/domain" />
+          <root url="file://$MODULE_DIR$/grails-app/services" />
+          <root url="file://$MODULE_DIR$/grails-app/taglib" />
+          <root url="file://$MODULE_DIR$/grails-app/utils" />
+        </sourceRoots>
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/grails-app/utils" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/i18n" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/controllers" isTestSource="false" />
@@ -41,8 +224,10 @@
       <sourceFolder url="file://$MODULE_DIR$/grails-app/services" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/taglib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/unit" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/test/integration" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/test/functional" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/test/integration" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/grails-app/utils" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target/classes" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -97,18 +282,14 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/grails/grails-web-databinding-spring/2.4.3/grails-web-databinding-spring-2.4.3.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/grails/grails-datastore-simple/3.1.0.RELEASE/grails-datastore-simple-3.1.0.RELEASE.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/grails/grails-datastore-gorm/3.1.0.RELEASE/grails-datastore-gorm-3.1.0.RELEASE.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/javax.transaction/jta/jars/jta-1.1.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/jars/hibernate-jpa-2.1-api-1.0.0.Final.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.17.1-GA/javassist-3.17.1-GA.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/grails/grails-datastore-core/3.1.2.RELEASE/grails-datastore-core-3.1.2.RELEASE.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/5.5.6/itextpdf-5.5.6.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.12.2/lombok-1.12.2.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/xmlenc/xmlenc/0.52/xmlenc-0.52.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/commons-cli/commons-cli/jars/commons-cli-1.2.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.1.1/hadoop-core-1.1.1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-tools/1.2.1/hadoop-tools-1.2.1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-streaming/1.2.1/hadoop-streaming-1.2.1.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.springframework/spring-context-support/jars/spring-context-support-4.1.9.RELEASE.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-hadoop/1.0.2.RELEASE/spring-data-hadoop-1.0.2.RELEASE.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar!/" />
@@ -166,13 +347,8 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/4.0.7.RELEASE/spring-messaging-4.0.7.RELEASE.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/springframework/retry/spring-retry/1.1.1.RELEASE/spring-retry-1.1.1.RELEASE.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-core/4.0.4.RELEASE/spring-integration-core-4.0.4.RELEASE.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.springframework/spring-jdbc/jars/spring-jdbc-4.1.9.RELEASE.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.0.5.RELEASE/spring-orm-4.0.5.RELEASE.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.springframework/spring-web/jars/spring-web-4.1.9.RELEASE.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.springframework/spring-expression/jars/spring-expression-4.1.9.RELEASE.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.5.RELEASE/spring-webmvc-4.0.5.RELEASE.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.springframework/spring-context/jars/spring-context-4.1.9.RELEASE.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.springframework/spring-aop/jars/spring-aop-4.1.9.RELEASE.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activeio-core/3.1.2/activeio-core-3.1.2.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-core/5.3.2/activemq-core-5.3.2.jar!/" />
@@ -182,7 +358,6 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/xbean/xbean-spring/3.5/xbean-spring-3.5.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/osgi/org.osgi.core/4.1.0/org.osgi.core-4.1.0.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/springmodules/spring-modules-cache/0.8/spring-modules-cache-0.8.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-plugin-converters-2.5.6.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jms/4.0.5.RELEASE/spring-jms-4.0.5.RELEASE.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.0.5.RELEASE/spring-beans-4.0.5.RELEASE.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.5.RELEASE/spring-core-4.0.5.RELEASE.jar!/" />
@@ -193,16 +368,6 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant-launcher/1.7.1/ant-launcher-1.7.1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant/1.7.1/ant-1.7.1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/avalon-framework/avalon-framework-impl/4.2.0/avalon-framework-impl-4.2.0.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-plugin-domain-class-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/asm/asm/jars/asm-3.3.1.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-plugin-mimetypes-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.codehaus.jsr166-mirror/jsr166y/jars/jsr166y-1.7.0.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.codehaus.gpars/gpars/jars/gpars-1.2.1.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-async-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-plugin-async-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-validation-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/jars/concurrentlinkedhashmap-lru-1.4.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-plugin-url-mappings-2.5.6.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/net/sf/barcode4j/barcode4j/2.1/barcode4j-2.1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.6/poi-3.6.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/net/sf/jasperreports/jasperreports-fonts/5.6.1/jasperreports-fonts-5.6.1.jar!/" />
@@ -213,16 +378,6 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-queryparser/4.5.1/lucene-queryparser-4.5.1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-analyzers-common/4.5.1/lucene-analyzers-common-4.5.1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/4.5.1/lucene-core-4.5.1.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-plugin-servlets-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.springframework/spring-tx/jars/spring-tx-4.1.9.RELEASE.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-plugin-services-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.21.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-plugin-log4j-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-logging-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-encoder-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-plugin-codecs-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-web-gsp-taglib-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-plugin-gsp-2.5.6.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.1.4/jackson-annotations-2.1.4.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.1.4/jackson-databind-2.1.4.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.1.4/jackson-core-2.1.4.jar!/" />
@@ -233,16 +388,6 @@
           <root url="jar://$MAVEN_REPOSITORY$/sslext/sslext/1.2-0/sslext-1.2-0.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.1/dom4j-1.1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-plugin-filters-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/commons-lang/commons-lang/jars/commons-lang-2.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-plugin-i18n-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-spring-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/aopalliance/aopalliance/jars/aopalliance-1.0.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-bootstrap-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-core-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-plugin-databinding-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/com.google.code.gson/gson/jars/gson-2.2.4.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.apache.tomcat/tomcat-juli/jars/tomcat-juli-7.0.70.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/commons-chain/commons-chain/1.1/commons-chain-1.1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/commons-digester/commons-digester/1.8/commons-digester-1.8.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar!/" />
@@ -253,16 +398,6 @@
           <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-json/1.8/jersey-json-1.8.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-core/1.8/jersey-core-1.8.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/2.4.0a/protobuf-java-2.4.0a.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.apache.tomcat/tomcat-jdbc/jars/tomcat-jdbc-7.0.70.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-plugin-datasource-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-plugin-validation-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-plugin-controllers-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-web-gsp-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/commons-fileupload/commons-fileupload/jars/commons-fileupload-1.3.1.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-web-fileupload-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-web-jsp-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-web-common-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-web-mvc-2.5.6.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/jamon/jamon-runtime/2.3.1/jamon-runtime-2.3.1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-xc/1.8.8/jackson-xc-1.8.8.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-jaxrs/1.8.8/jackson-jaxrs-1.8.8.jar!/" />
@@ -273,31 +408,11 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro-ipc/1.5.3/avro-ipc-1.5.3.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/xerial/snappy/snappy-java/1.0.3.2/snappy-java-1.0.3.2.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/avro/avro/1.5.3/avro-1.5.3.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-web-url-mappings-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/opensymphony/sitemesh/jars/sitemesh-2.4.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-web-sitemesh-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-databinding-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-web-databinding-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-web-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.21.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-plugin-rest-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.codehaus.groovy/groovy-all/jars/groovy-all-2.4.10.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/github/stephenc/high-scale-lib/high-scale-lib/1.1.1/high-scale-lib-1.1.1.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/com.google.code.findbugs/jsr305/jars/jsr305-1.3.9.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/11.0.2/guava-11.0.2.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-core/2.1.2/metrics-core-2.1.2.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase/0.94.2/hbase-0.94.2.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/core/compiler/ecj/4.4/ecj-4.4.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-resources-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/log4j/log4j/jars/log4j-1.2.17.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/com.h2database/h2/jars/h2-1.3.176.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/cglib/cglib/jars/cglib-2.2.2.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/xalan/serializer/jars/serializer-2.7.2.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.apache.tomcat.embed/tomcat-embed-logging-log4j/jars/tomcat-embed-logging-log4j-7.0.70.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.springframework/spring-aspects/jars/spring-aspects-4.1.9.RELEASE.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.aspectj/aspectjrt/jars/aspectjrt-1.8.7.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.aspectj/aspectjweaver/jars/aspectjweaver-1.8.7.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/commons-pool/commons-pool/1.5.6/commons-pool-1.5.6.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/picocontainer/picocontainer/2.13.5/picocontainer-2.13.5.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/caucho/hessian/4.0.7/hessian-4.0.7.jar!/" />
@@ -317,19 +432,7 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.3-1102-jdbc41/postgresql-9.3-1102-jdbc41.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/javax.servlet/javax.servlet-api/jars/javax.servlet-api-3.0.1.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.3.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/junit/junit/jars/junit-4.12.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.spockframework/spock-core/jars/spock-core-1.0-groovy-2.4.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.codehaus.gant/gant_groovy1.8/jars/gant_groovy1.8-1.9.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.fusesource.jansi/jansi/jars/jansi-1.11.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/jline/jline/jars/jline-2.12.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-project-api-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.objenesis/objenesis/jars/objenesis-1.4.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-test-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.springframework/spring-test/jars/spring-test-4.1.9.RELEASE.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-plugin-testing-2.5.6.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/easymock/easymock/3.2/easymock-3.2.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/easymock/easymockclassextension/3.2/easymockclassextension-3.2.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8.jar!/" />
@@ -345,8 +448,6 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/bouncycastle/bcmail-jdk14/1.38/bcmail-jdk14-1.38.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/bouncycastle/bcprov-jdk14/1.38/bcprov-jdk14-1.38.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/bouncycastle/bctsp-jdk14/1.38/bctsp-jdk14-1.38.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/bouncycastle/bcprov-jdk14/jars/bcprov-jdk14-138.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/bouncycastle/bcmail-jdk14/jars/bcmail-jdk14-138.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/lowagie/itext/2.1.7/itext-2.1.7.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/core/commands/3.3.0-I20070605-0010/commands-3.3.0-I20070605-0010.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/text/3.3.0-v20070606-0010/text-3.3.0-v20070606-0010.jar!/" />
@@ -369,18 +470,6 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/drools/drools-templates/5.0.1/drools-templates-5.0.1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/jexcelapi/jxl/2.4.2/jxl-2.4.2.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/drools/drools-decisiontables/5.0.1/drools-decisiontables-5.0.1.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.grails/grails-gdoc-engine/jars/grails-gdoc-engine-1.0.1.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.yaml/snakeyaml/jars/snakeyaml-1.8.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.xhtmlrenderer/core-renderer/jars/core-renderer-R8.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.jsoup/jsoup/jars/jsoup-1.7.3.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-docs-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/dist/grails-scripts-2.5.6.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.apache.ant/ant/jars/ant-1.9.4.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.apache.ivy/ivy/jars/ivy-2.3.0.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.apache.ant/ant-trax/jars/ant-trax-1.7.1.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/net.java.dev.jna/jna/jars/jna-4.0.0.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.apache.ant/ant-junit/jars/ant-junit-1.9.4.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../grails-2.5.6/lib/org.apache.ant/ant-launcher/jars/ant-launcher-1.9.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>

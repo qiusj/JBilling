@@ -39,7 +39,7 @@
 		class="com.sapienter.jbilling.server.util.StatelessJDBCReader">
 		<property name="parameters">
 			<map>
-				<entry key="url" value="jdbc:postgresql://localhost:5432/jbilling_test" />
+				<entry key="url" value="jdbc:postgresql://172.16.16.18:15432/jbilling_test" />
 				<entry key="driver" value="org.postgresql.Driver" />
 				<entry key="username" value="jbilling" />
 				<entry key="password" value="" />

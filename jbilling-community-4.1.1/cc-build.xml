@@ -66,12 +66,12 @@
         <!-- update DataSource.groovy connection details -->
         <replace file="${root.dir}/grails-app/conf/DataSource.groovy">
             <replacefilter token='username = "jbilling"'
-                           value='username = "${test_db_user}"'/>
+                           value='username = "jbilling'/>
         </replace>
 
         <replace file="${root.dir}/grails-app/conf/DataSource.groovy">
-            <replacefilter token="jdbc:postgresql://localhost:5432/jbilling_test"
-                           value="jdbc:postgresql://localhost:5432/${test_db}"/>
+            <replacefilter token="jdbc:postgresql://172.16.16.18:15432/jbilling_test"
+                           value="jdbc:postgresql://172.16.16.18:15432/jbilling"/>
         </replace>
     </target>
 
