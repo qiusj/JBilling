@@ -148,11 +148,11 @@ grails.project.dependency.resolution = {
         compile 'org.liquibase:liquibase-core:3.2.3'
         compile 'com.mchange:c3p0:0.9.2.1'
 
-        compile 'org.springframework:spring-core:4.0.5.RELEASE'
-        compile 'org.springframework:spring-beans:4.0.5.RELEASE'
-        compile 'org.springframework:spring-jms:4.0.5.RELEASE'
-        compile 'org.springframework:spring-webmvc:4.0.5.RELEASE'
-        compile 'org.springframework:spring-orm:4.0.5.RELEASE'
+        compile 'org.springframework:spring-core:4.1.9.RELEASE'
+        compile 'org.springframework:spring-beans:4.1.9.RELEASE'
+        compile 'org.springframework:spring-jms:4.1.9.RELEASE'
+        compile 'org.springframework:spring-webmvc:4.1.9.RELEASE'
+        compile 'org.springframework:spring-orm:4.1.9.RELEASE'
 
         compile 'org.springframework.integration:spring-integration-core:4.0.4.RELEASE'
         compile 'org.springframework.integration:spring-integration-ftp:4.0.4.RELEASE'
